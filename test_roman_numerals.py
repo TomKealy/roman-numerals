@@ -55,6 +55,31 @@ class TestRomanNumerals(unittest.TestCase):
         output = numeral_converter(test_string)
         self.assertEqual(output, 4.0)
 
+    def test_subtracting_two_different_numbers_IX(self):
+        test_string = 'IX'
+        output = numeral_converter(test_string)
+        self.assertEqual(output, 9.0)
+
+    def test_nineteen(self):
+        test_string = 'XIX'
+        output = numeral_converter(test_string)
+        self.assertEqual(19.0, output)
+
+    def test_forty(self):
+        test_string = 'XL'
+        output = numeral_converter(test_string)
+        self.assertEqual(40.0, output)
+
+    def test_fourhundred(self):
+        test_string = 'CD'
+        output = numeral_converter(test_string)
+        self.assertEqual(400.0, output)
+
+    # def test_subtracting_three_different_numbers_IX(self):
+    #     test_string = 'XIV'
+    #     output = numeral_converter(test_string)
+    #     self.assertEqual(output, 14.0)
+
     # def test_test_all_combination_of_numbers(self):
     #     # acceptance test
     #     test_string = 'MMCDLXVII'
