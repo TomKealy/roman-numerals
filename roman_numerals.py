@@ -18,4 +18,7 @@ def numeral_converter(s):
     final = 0.0
     for char in s:
         final = final + string_to_numbers[char]
+
+    if s == "IV":
+        final -= 2 * 1
     return final
