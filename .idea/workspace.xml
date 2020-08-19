@@ -145,6 +145,7 @@
       <updated>1597062223072</updated>
       <workItem from="1597062227394" duration="666000" />
       <workItem from="1597834169774" duration="303000" />
+      <workItem from="1597837109209" duration="575000" />
     </task>
     <servers />
   </component>
@@ -152,29 +153,56 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1597836290215">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="1572" y="557" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1597837672128">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="1572" y="557" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1440/2560.474.1680.1050@0.0.2560.1440" timestamp="1597837672128" />
+    <state width="2518" height="419" key="GridCell.Tab.0.bottom" timestamp="1597837673501">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.474.1680.1050@0.0.2560.1440" timestamp="1597837673501" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1597836290215" />
-    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1597836290214">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="2518" height="419" key="GridCell.Tab.0.center" timestamp="1597837673498">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2518" height="419" key="GridCell.Tab.0.center/0.0.2560.1440/2560.474.1680.1050@0.0.2560.1440" timestamp="1597837673498" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1597836290214" />
-    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1597836290213">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="2518" height="419" key="GridCell.Tab.0.left" timestamp="1597837673497">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2518" height="419" key="GridCell.Tab.0.left/0.0.2560.1440/2560.474.1680.1050@0.0.2560.1440" timestamp="1597837673497" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1597836290213" />
-    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1597836290214">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="2518" height="419" key="GridCell.Tab.0.right" timestamp="1597837673500">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2518" height="419" key="GridCell.Tab.0.right/0.0.2560.1440/2560.474.1680.1050@0.0.2560.1440" timestamp="1597837673500" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1597836290214" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1597837341958">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.2560.1440/2560.474.1680.1050@0.0.2560.1440" timestamp="1597837341958" />
     <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1597062299107">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.824@0.23.1440.824" timestamp="1597062299107" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1597837489554">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440/2560.474.1680.1050@0.0.2560.1440" timestamp="1597837489554" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_roman_numerals.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/roman_numerals$pytest_for_test_roman_numerals_TestRomanNumerals.coverage" NAME="pytest for test_roman_numerals.TestRomanNumerals Coverage Results" MODIFIED="1597836290203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/roman_numerals$pytest_for_test_roman_numerals_TestRomanNumerals_test_nineteen.coverage" NAME="pytest for test_roman_numerals.TestRomanNumerals.test_nineteen Coverage Results" MODIFIED="1597835836270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/roman_numerals$pytest_for_test_roman_numerals_TestRomanNumerals.coverage" NAME="pytest for test_roman_numerals.TestRomanNumerals Coverage Results" MODIFIED="1597837596053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

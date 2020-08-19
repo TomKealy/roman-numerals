@@ -66,22 +66,32 @@ class TestRomanNumerals(unittest.TestCase):
         self.assertEqual(19.0, output)
 
     def test_forty(self):
-        test_string = 'XL'
+        self.asert_roman_to_arabic('XL', 40.0)
+
+    def asert_roman_to_arabic(self, roman_numeral, expected_arabic):
+        test_string = roman_numeral
         output = numeral_converter(test_string)
-        self.assertEqual(40.0, output)
+        self.assertEqual(expected_arabic, output)
 
     def test_fourhundred(self):
         test_string = 'CD'
         output = numeral_converter(test_string)
         self.assertEqual(400.0, output)
 
-    # def test_subtracting_three_different_numbers_IX(self):
-    #     test_string = 'XIV'
-    #     output = numeral_converter(test_string)
-    #     self.assertEqual(output, 14.0)
+    def test_subtracting_three_different_numbers_IX(self):
+        test_string = 'XIV'
+        output = numeral_converter(test_string)
+        self.assertEqual(output, 14.0)
 
-    # def test_test_all_combination_of_numbers(self):
-    #     # acceptance test
-    #     test_string = 'MMCDLXVII'
-    #     output = numeral_converter(test_string)
-    #     self.assertEqual(output, 2467.0)
+    def test_subtracting_xxX(self):
+        test_string = 'XLIV'
+        output = numeral_converter(test_string)
+        self.assertEqual(output, 44.0)
+
+    def test_test_all_combination_of_numbers(self):
+        # acceptance test
+        test_string = 'MMCDLXVII'
+        output = numeral_converter(test_string)
+        self.assertEqual(output, 2467.0)
+
+ #TODO test invalid input

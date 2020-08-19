@@ -19,13 +19,8 @@ def numeral_converter(s):
     for char in s:
         final = final + string_to_numbers[char]
 
-    if "IV" in s or "IX" in s:
-        final -= 2 * string_to_numbers['I']
-
-    pos = s[0]
-    if 'XL' in s:
-        final -= 2 * string_to_numbers[pos]
-
-    if 'CD' in s:
-        final -= 2 * string_to_numbers[pos]
+    subtraction_pattern = ['IV', 'IX', 'XL', 'CD']
+    for subtraction_numeral in subtraction_pattern:
+        if subtraction_numeral in s:
+            final -= 2 * string_to_numbers[subtraction_numeral[0]]
     return final
