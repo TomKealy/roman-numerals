@@ -16,5 +16,5 @@ def numeral_converter(s):
     :return: flat
     """
     if len(s) == 2:
-        return 2.0
+        return string_to_numbers[s[0]] + string_to_numbers[s[1]]
     return string_to_numbers[s]
