@@ -15,6 +15,9 @@ from roman_numerals import numeral_converter
 # addition
 # - II-> 2.0
 
+# subtraction
+# - IV -> 4.0
+
 class TestRomanNumerals(unittest.TestCase):
 
     def test_single_number(self):
@@ -41,6 +44,16 @@ class TestRomanNumerals(unittest.TestCase):
         test_string = 'VI'
         output = numeral_converter(test_string)
         self.assertEqual(output, 6.0)
+
+    def test_adding_up_three_numbers(self):
+        test_string = 'III'
+        output = numeral_converter(test_string)
+        self.assertEqual(output, 3.0)
+
+    def test_subtracting_two_different_numbers(self):
+        test_string = 'IV'
+        output = numeral_converter(test_string)
+        self.assertEqual(output, 4.0)
 
     # def test_test_all_combination_of_numbers(self):
     #     # acceptance test

@@ -15,6 +15,7 @@ def numeral_converter(s):
     :param s: string
     :return: flat
     """
-    if len(s) == 2:
-        return string_to_numbers[s[0]] + string_to_numbers[s[1]]
-    return string_to_numbers[s]
+    final = 0.0
+    for char in s:
+        final = final + string_to_numbers[char]
+    return final
